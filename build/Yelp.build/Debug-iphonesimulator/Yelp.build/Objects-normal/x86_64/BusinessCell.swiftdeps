@@ -1,0 +1,703 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BusinessCell"
+provides-nominal:
+- "C4Yelp12BusinessCell"
+provides-member:
+- ["C4Yelp12BusinessCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "distanceLabel"
+- "thumbImageView"
+- "categoriesLabel"
+- "setSelected"
+- "nameLabel"
+- "ratingsImageView"
+- "addressLabel"
+- "business"
+- "reviewsCountLabel"
+depends-top-level:
+- "BusinessCell"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- "UIImageView"
+- "Bool"
+- "UILabel"
+- "Business"
+- "UITableViewCell"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "address"]
+- ["Ps9AnyObject", "addressLabel"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "business"]
+- !private ["Ps9AnyObject", "categories"]
+- ["Ps9AnyObject", "categoriesLabel"]
+- !private ["Ps9AnyObject", "clipsToBounds"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "distance"]
+- ["Ps9AnyObject", "distanceLabel"]
+- !private ["Ps9AnyObject", "imageURL"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "nameLabel"]
+- !private ["Ps9AnyObject", "ratingImageURL"]
+- ["Ps9AnyObject", "ratingsImageView"]
+- !private ["Ps9AnyObject", "reviewCount"]
+- ["Ps9AnyObject", "reviewsCountLabel"]
+- !private ["Ps9AnyObject", "setImageWith"]
+- ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "thumbImageView"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["C4Yelp8Business", "address"]
+- !private ["C4Yelp8Business", "categories"]
+- !private ["C4Yelp8Business", "distance"]
+- !private ["C4Yelp8Business", "imageURL"]
+- !private ["C4Yelp8Business", "name"]
+- !private ["C4Yelp8Business", "ratingImageURL"]
+- !private ["C4Yelp8Business", "reviewCount"]
+- ["C4Yelp12BusinessCell", "Bool"]
+- ["C4Yelp12BusinessCell", "Business"]
+- ["C4Yelp12BusinessCell", "UIImageView"]
+- ["C4Yelp12BusinessCell", "UILabel"]
+- ["C4Yelp12BusinessCell", "addressLabel"]
+- ["C4Yelp12BusinessCell", "awakeFromNib"]
+- ["C4Yelp12BusinessCell", "business"]
+- ["C4Yelp12BusinessCell", "categoriesLabel"]
+- ["C4Yelp12BusinessCell", "deinit"]
+- ["C4Yelp12BusinessCell", "distanceLabel"]
+- ["C4Yelp12BusinessCell", "init"]
+- ["C4Yelp12BusinessCell", "nameLabel"]
+- ["C4Yelp12BusinessCell", "ratingsImageView"]
+- ["C4Yelp12BusinessCell", "reviewsCountLabel"]
+- ["C4Yelp12BusinessCell", "setSelected"]
+- ["C4Yelp12BusinessCell", "thumbImageView"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- ["CSo7CALayer", "deinit"]
+- ["PSo15CALayerDelegate", "addressLabel"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- ["PSo15CALayerDelegate", "business"]
+- ["PSo15CALayerDelegate", "categoriesLabel"]
+- !private ["PSo15CALayerDelegate", "clipsToBounds"]
+- ["PSo15CALayerDelegate", "distanceLabel"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- ["PSo15CALayerDelegate", "nameLabel"]
+- ["PSo15CALayerDelegate", "ratingsImageView"]
+- ["PSo15CALayerDelegate", "reviewsCountLabel"]
+- !private ["PSo15CALayerDelegate", "setImageWith"]
+- ["PSo15CALayerDelegate", "setSelected"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", "thumbImageView"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "address"]
+- ["Ps7CVarArg", "addressLabel"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- ["Ps7CVarArg", "business"]
+- !private ["Ps7CVarArg", "categories"]
+- ["Ps7CVarArg", "categoriesLabel"]
+- !private ["Ps7CVarArg", "clipsToBounds"]
+- !private ["Ps7CVarArg", "cornerRadius"]
+- !private ["Ps7CVarArg", "distance"]
+- ["Ps7CVarArg", "distanceLabel"]
+- !private ["Ps7CVarArg", "imageURL"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "nameLabel"]
+- !private ["Ps7CVarArg", "ratingImageURL"]
+- ["Ps7CVarArg", "ratingsImageView"]
+- !private ["Ps7CVarArg", "reviewCount"]
+- ["Ps7CVarArg", "reviewsCountLabel"]
+- !private ["Ps7CVarArg", "setImageWith"]
+- ["Ps7CVarArg", "setSelected"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "thumbImageView"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "address"]
+- ["Ps28CustomDebugStringConvertible", "addressLabel"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "business"]
+- !private ["Ps28CustomDebugStringConvertible", "categories"]
+- ["Ps28CustomDebugStringConvertible", "categoriesLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "clipsToBounds"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "distance"]
+- ["Ps28CustomDebugStringConvertible", "distanceLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "imageURL"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "ratingImageURL"]
+- ["Ps28CustomDebugStringConvertible", "ratingsImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "reviewCount"]
+- ["Ps28CustomDebugStringConvertible", "reviewsCountLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "setImageWith"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "thumbImageView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "address"]
+- ["Ps23CustomStringConvertible", "addressLabel"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "business"]
+- !private ["Ps23CustomStringConvertible", "categories"]
+- ["Ps23CustomStringConvertible", "categoriesLabel"]
+- !private ["Ps23CustomStringConvertible", "clipsToBounds"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "distance"]
+- ["Ps23CustomStringConvertible", "distanceLabel"]
+- !private ["Ps23CustomStringConvertible", "imageURL"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "nameLabel"]
+- !private ["Ps23CustomStringConvertible", "ratingImageURL"]
+- ["Ps23CustomStringConvertible", "ratingsImageView"]
+- !private ["Ps23CustomStringConvertible", "reviewCount"]
+- ["Ps23CustomStringConvertible", "reviewsCountLabel"]
+- !private ["Ps23CustomStringConvertible", "setImageWith"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "thumbImageView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "address"]
+- ["Ps9Equatable", "addressLabel"]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "business"]
+- !private ["Ps9Equatable", "categories"]
+- ["Ps9Equatable", "categoriesLabel"]
+- !private ["Ps9Equatable", "clipsToBounds"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "distance"]
+- ["Ps9Equatable", "distanceLabel"]
+- !private ["Ps9Equatable", "imageURL"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "nameLabel"]
+- !private ["Ps9Equatable", "ratingImageURL"]
+- ["Ps9Equatable", "ratingsImageView"]
+- !private ["Ps9Equatable", "reviewCount"]
+- ["Ps9Equatable", "reviewsCountLabel"]
+- !private ["Ps9Equatable", "setImageWith"]
+- ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "thumbImageView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "address"]
+- ["Ps8Hashable", "addressLabel"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "business"]
+- !private ["Ps8Hashable", "categories"]
+- ["Ps8Hashable", "categoriesLabel"]
+- !private ["Ps8Hashable", "clipsToBounds"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "distance"]
+- ["Ps8Hashable", "distanceLabel"]
+- !private ["Ps8Hashable", "imageURL"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "nameLabel"]
+- !private ["Ps8Hashable", "ratingImageURL"]
+- ["Ps8Hashable", "ratingsImageView"]
+- !private ["Ps8Hashable", "reviewCount"]
+- ["Ps8Hashable", "reviewsCountLabel"]
+- !private ["Ps8Hashable", "setImageWith"]
+- ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "thumbImageView"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "addressLabel"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "business"]
+- ["PSo8NSCoding", "categoriesLabel"]
+- !private ["PSo8NSCoding", "clipsToBounds"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "distanceLabel"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "nameLabel"]
+- ["PSo8NSCoding", "ratingsImageView"]
+- ["PSo8NSCoding", "reviewsCountLabel"]
+- !private ["PSo8NSCoding", "setImageWith"]
+- ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "thumbImageView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Business"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "address"]
+- ["CSo8NSObject", "addressLabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "business"]
+- !private ["CSo8NSObject", "categories"]
+- ["CSo8NSObject", "categoriesLabel"]
+- !private ["CSo8NSObject", "clipsToBounds"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "distance"]
+- ["CSo8NSObject", "distanceLabel"]
+- !private ["CSo8NSObject", "imageURL"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "nameLabel"]
+- !private ["CSo8NSObject", "ratingImageURL"]
+- ["CSo8NSObject", "ratingsImageView"]
+- !private ["CSo8NSObject", "reviewCount"]
+- ["CSo8NSObject", "reviewsCountLabel"]
+- !private ["CSo8NSObject", "setImageWith"]
+- ["CSo8NSObject", "setSelected"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "thumbImageView"]
+- !private ["PSo16NSObjectProtocol", "address"]
+- ["PSo16NSObjectProtocol", "addressLabel"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "business"]
+- !private ["PSo16NSObjectProtocol", "categories"]
+- ["PSo16NSObjectProtocol", "categoriesLabel"]
+- !private ["PSo16NSObjectProtocol", "clipsToBounds"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "distance"]
+- ["PSo16NSObjectProtocol", "distanceLabel"]
+- !private ["PSo16NSObjectProtocol", "imageURL"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "nameLabel"]
+- !private ["PSo16NSObjectProtocol", "ratingImageURL"]
+- ["PSo16NSObjectProtocol", "ratingsImageView"]
+- !private ["PSo16NSObjectProtocol", "reviewCount"]
+- ["PSo16NSObjectProtocol", "reviewsCountLabel"]
+- !private ["PSo16NSObjectProtocol", "setImageWith"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "thumbImageView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["PSo29UIAccessibilityIdentification", "addressLabel"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "business"]
+- ["PSo29UIAccessibilityIdentification", "categoriesLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
+- ["PSo29UIAccessibilityIdentification", "distanceLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "nameLabel"]
+- ["PSo29UIAccessibilityIdentification", "ratingsImageView"]
+- ["PSo29UIAccessibilityIdentification", "reviewsCountLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "setImageWith"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "thumbImageView"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "addressLabel"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "business"]
+- ["PSo12UIAppearance", "categoriesLabel"]
+- !private ["PSo12UIAppearance", "clipsToBounds"]
+- ["PSo12UIAppearance", "distanceLabel"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "nameLabel"]
+- ["PSo12UIAppearance", "ratingsImageView"]
+- ["PSo12UIAppearance", "reviewsCountLabel"]
+- !private ["PSo12UIAppearance", "setImageWith"]
+- ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "thumbImageView"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "addressLabel"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "business"]
+- ["PSo21UIAppearanceContainer", "categoriesLabel"]
+- !private ["PSo21UIAppearanceContainer", "clipsToBounds"]
+- ["PSo21UIAppearanceContainer", "distanceLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "nameLabel"]
+- ["PSo21UIAppearanceContainer", "ratingsImageView"]
+- ["PSo21UIAppearanceContainer", "reviewsCountLabel"]
+- !private ["PSo21UIAppearanceContainer", "setImageWith"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "thumbImageView"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- ["PSo17UICoordinateSpace", "addressLabel"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "business"]
+- ["PSo17UICoordinateSpace", "categoriesLabel"]
+- !private ["PSo17UICoordinateSpace", "clipsToBounds"]
+- ["PSo17UICoordinateSpace", "distanceLabel"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "nameLabel"]
+- ["PSo17UICoordinateSpace", "ratingsImageView"]
+- ["PSo17UICoordinateSpace", "reviewsCountLabel"]
+- !private ["PSo17UICoordinateSpace", "setImageWith"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "thumbImageView"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "addressLabel"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "business"]
+- ["PSo13UIDynamicItem", "categoriesLabel"]
+- !private ["PSo13UIDynamicItem", "clipsToBounds"]
+- ["PSo13UIDynamicItem", "distanceLabel"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "nameLabel"]
+- ["PSo13UIDynamicItem", "ratingsImageView"]
+- ["PSo13UIDynamicItem", "reviewsCountLabel"]
+- !private ["PSo13UIDynamicItem", "setImageWith"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "thumbImageView"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "addressLabel"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "business"]
+- ["PSo18UIFocusEnvironment", "categoriesLabel"]
+- !private ["PSo18UIFocusEnvironment", "clipsToBounds"]
+- ["PSo18UIFocusEnvironment", "distanceLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "nameLabel"]
+- ["PSo18UIFocusEnvironment", "ratingsImageView"]
+- ["PSo18UIFocusEnvironment", "reviewsCountLabel"]
+- !private ["PSo18UIFocusEnvironment", "setImageWith"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "thumbImageView"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "addressLabel"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- ["PSo11UIFocusItem", "business"]
+- ["PSo11UIFocusItem", "categoriesLabel"]
+- !private ["PSo11UIFocusItem", "clipsToBounds"]
+- ["PSo11UIFocusItem", "distanceLabel"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layer"]
+- ["PSo11UIFocusItem", "nameLabel"]
+- ["PSo11UIFocusItem", "ratingsImageView"]
+- ["PSo11UIFocusItem", "reviewsCountLabel"]
+- !private ["PSo11UIFocusItem", "setImageWith"]
+- ["PSo11UIFocusItem", "setSelected"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", "thumbImageView"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "addressLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "business"]
+- ["PSo27UIGestureRecognizerDelegate", "categoriesLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "distanceLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "nameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "ratingsImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "reviewsCountLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "thumbImageView"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo11UIImageView", "clipsToBounds"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIImageView", "setImageWith"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Business"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "addressLabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "business"]
+- ["CSo11UIResponder", "categoriesLabel"]
+- !private ["CSo11UIResponder", "clipsToBounds"]
+- ["CSo11UIResponder", "distanceLabel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "nameLabel"]
+- ["CSo11UIResponder", "ratingsImageView"]
+- ["CSo11UIResponder", "reviewsCountLabel"]
+- !private ["CSo11UIResponder", "setImageWith"]
+- ["CSo11UIResponder", "setSelected"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "thumbImageView"]
+- ["PSo30UIResponderStandardEditActions", "addressLabel"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- ["PSo30UIResponderStandardEditActions", "business"]
+- ["PSo30UIResponderStandardEditActions", "categoriesLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "clipsToBounds"]
+- ["PSo30UIResponderStandardEditActions", "distanceLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- ["PSo30UIResponderStandardEditActions", "nameLabel"]
+- ["PSo30UIResponderStandardEditActions", "ratingsImageView"]
+- ["PSo30UIResponderStandardEditActions", "reviewsCountLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "setImageWith"]
+- ["PSo30UIResponderStandardEditActions", "setSelected"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "thumbImageView"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Business"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "addressLabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "business"]
+- ["CSo15UITableViewCell", "categoriesLabel"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "distanceLabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "nameLabel"]
+- ["CSo15UITableViewCell", "ratingsImageView"]
+- ["CSo15UITableViewCell", "reviewsCountLabel"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "thumbImageView"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "addressLabel"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "business"]
+- ["PSo18UITraitEnvironment", "categoriesLabel"]
+- !private ["PSo18UITraitEnvironment", "clipsToBounds"]
+- ["PSo18UITraitEnvironment", "distanceLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "nameLabel"]
+- ["PSo18UITraitEnvironment", "ratingsImageView"]
+- ["PSo18UITraitEnvironment", "reviewsCountLabel"]
+- !private ["PSo18UITraitEnvironment", "setImageWith"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "thumbImageView"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Business"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "addressLabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "business"]
+- ["CSo6UIView", "categoriesLabel"]
+- !private ["CSo6UIView", "clipsToBounds"]
+- ["CSo6UIView", "distanceLabel"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "nameLabel"]
+- ["CSo6UIView", "ratingsImageView"]
+- ["CSo6UIView", "reviewsCountLabel"]
+- !private ["CSo6UIView", "setImageWith"]
+- ["CSo6UIView", "setSelected"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "thumbImageView"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["Sc", "deinit"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "addressLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "business"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "categoriesLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "clipsToBounds"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "distanceLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "nameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "ratingsImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "reviewsCountLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setImageWith"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "thumbImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "address"]
+- ["Ps9_Hashable", "addressLabel"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- ["Ps9_Hashable", "business"]
+- !private ["Ps9_Hashable", "categories"]
+- ["Ps9_Hashable", "categoriesLabel"]
+- !private ["Ps9_Hashable", "clipsToBounds"]
+- !private ["Ps9_Hashable", "cornerRadius"]
+- !private ["Ps9_Hashable", "distance"]
+- ["Ps9_Hashable", "distanceLabel"]
+- !private ["Ps9_Hashable", "imageURL"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "nameLabel"]
+- !private ["Ps9_Hashable", "ratingImageURL"]
+- ["Ps9_Hashable", "ratingsImageView"]
+- !private ["Ps9_Hashable", "reviewCount"]
+- ["Ps9_Hashable", "reviewsCountLabel"]
+- !private ["Ps9_Hashable", "setImageWith"]
+- ["Ps9_Hashable", "setSelected"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "thumbImageView"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "C4Yelp8Business"
+- "C4Yelp12BusinessCell"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- !private "Sc"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Yelpp/build/Debug-iphonesimulator/BDBOAuth1Manager/BDBOAuth1Manager.framework/Modules/module.modulemap"
+interface-hash: "8269d3a87269e9ba1adbe70549ce8101"
