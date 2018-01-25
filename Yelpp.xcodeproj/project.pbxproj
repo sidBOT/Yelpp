@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FE8390F201957840016F642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8390E201957840016F642 /* AppDelegate.swift */; };
+		1FE83911201957840016F642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE83910201957840016F642 /* ViewController.swift */; };
+		1FE83914201957840016F642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE83912201957840016F642 /* Main.storyboard */; };
+		1FE83917201957840016F642 /* Yelpp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FE83915201957840016F642 /* Yelpp.xcdatamodeld */; };
+		1FE83919201957840016F642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE83918201957840016F642 /* Assets.xcassets */; };
+		1FE8391C201957840016F642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE8391A201957840016F642 /* LaunchScreen.storyboard */; };
+		1FE83927201957840016F642 /* YelppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE83926201957840016F642 /* YelppTests.swift */; };
+		1FE83932201957840016F642 /* YelppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE83931201957840016F642 /* YelppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FE83923201957840016F642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE83903201957840016F642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE8390A201957840016F642;
+			remoteInfo = Yelpp;
+		};
+		1FE8392E201957840016F642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE83903201957840016F642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE8390A201957840016F642;
+			remoteInfo = Yelpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FE8390B201957840016F642 /* Yelpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE8390E201957840016F642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FE83910201957840016F642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FE83913201957840016F642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FE83916201957840016F642 /* Yelpp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yelpp.xcdatamodel; sourceTree = "<group>"; };
+		1FE83918201957840016F642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FE8391B201957840016F642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FE8391D201957840016F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE83922201957840016F642 /* YelppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE83926201957840016F642 /* YelppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelppTests.swift; sourceTree = "<group>"; };
+		1FE83928201957840016F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE8392D201957840016F642 /* YelppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE83931201957840016F642 /* YelppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelppUITests.swift; sourceTree = "<group>"; };
+		1FE83933201957840016F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE83908201957840016F642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE8391F201957840016F642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE8392A201957840016F642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FE83902201957840016F642 = {
+			isa = PBXGroup;
+			children = (
+				1FE8390D201957840016F642 /* Yelpp */,
+				1FE83925201957840016F642 /* YelppTests */,
+				1FE83930201957840016F642 /* YelppUITests */,
+				1FE8390C201957840016F642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FE8390C201957840016F642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8390B201957840016F642 /* Yelpp.app */,
+				1FE83922201957840016F642 /* YelppTests.xctest */,
+				1FE8392D201957840016F642 /* YelppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE8390D201957840016F642 /* Yelpp */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8390E201957840016F642 /* AppDelegate.swift */,
+				1FE83910201957840016F642 /* ViewController.swift */,
+				1FE83912201957840016F642 /* Main.storyboard */,
+				1FE83918201957840016F642 /* Assets.xcassets */,
+				1FE8391A201957840016F642 /* LaunchScreen.storyboard */,
+				1FE8391D201957840016F642 /* Info.plist */,
+				1FE83915201957840016F642 /* Yelpp.xcdatamodeld */,
+			);
+			path = Yelpp;
+			sourceTree = "<group>";
+		};
+		1FE83925201957840016F642 /* YelppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE83926201957840016F642 /* YelppTests.swift */,
+				1FE83928201957840016F642 /* Info.plist */,
+			);
+			path = YelppTests;
+			sourceTree = "<group>";
+		};
+		1FE83930201957840016F642 /* YelppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE83931201957840016F642 /* YelppUITests.swift */,
+				1FE83933201957840016F642 /* Info.plist */,
+			);
+			path = YelppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FE8390A201957840016F642 /* Yelpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE83936201957850016F642 /* Build configuration list for PBXNativeTarget "Yelpp" */;
+			buildPhases = (
+				1FE83907201957840016F642 /* Sources */,
+				1FE83908201957840016F642 /* Frameworks */,
+				1FE83909201957840016F642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yelpp;
+			productName = Yelpp;
+			productReference = 1FE8390B201957840016F642 /* Yelpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FE83921201957840016F642 /* YelppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE83939201957850016F642 /* Build configuration list for PBXNativeTarget "YelppTests" */;
+			buildPhases = (
+				1FE8391E201957840016F642 /* Sources */,
+				1FE8391F201957840016F642 /* Frameworks */,
+				1FE83920201957840016F642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE83924201957840016F642 /* PBXTargetDependency */,
+			);
+			name = YelppTests;
+			productName = YelppTests;
+			productReference = 1FE83922201957840016F642 /* YelppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FE8392C201957840016F642 /* YelppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE8393C201957850016F642 /* Build configuration list for PBXNativeTarget "YelppUITests" */;
+			buildPhases = (
+				1FE83929201957840016F642 /* Sources */,
+				1FE8392A201957840016F642 /* Frameworks */,
+				1FE8392B201957840016F642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE8392F201957840016F642 /* PBXTargetDependency */,
+			);
+			name = YelppUITests;
+			productName = YelppUITests;
+			productReference = 1FE8392D201957840016F642 /* YelppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FE83903201957840016F642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = siddhant;
+				TargetAttributes = {
+					1FE8390A201957840016F642 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1FE83921201957840016F642 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FE8390A201957840016F642;
+					};
+					1FE8392C201957840016F642 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FE8390A201957840016F642;
+					};
+				};
+			};
+			buildConfigurationList = 1FE83906201957840016F642 /* Build configuration list for PBXProject "Yelpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FE83902201957840016F642;
+			productRefGroup = 1FE8390C201957840016F642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FE8390A201957840016F642 /* Yelpp */,
+				1FE83921201957840016F642 /* YelppTests */,
+				1FE8392C201957840016F642 /* YelppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FE83909201957840016F642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE8391C201957840016F642 /* LaunchScreen.storyboard in Resources */,
+				1FE83919201957840016F642 /* Assets.xcassets in Resources */,
+				1FE83914201957840016F642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE83920201957840016F642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE8392B201957840016F642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE83907201957840016F642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE83911201957840016F642 /* ViewController.swift in Sources */,
+				1FE83917201957840016F642 /* Yelpp.xcdatamodeld in Sources */,
+				1FE8390F201957840016F642 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE8391E201957840016F642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE83927201957840016F642 /* YelppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE83929201957840016F642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE83932201957840016F642 /* YelppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FE83924201957840016F642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE8390A201957840016F642 /* Yelpp */;
+			targetProxy = 1FE83923201957840016F642 /* PBXContainerItemProxy */;
+		};
+		1FE8392F201957840016F642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE8390A201957840016F642 /* Yelpp */;
+			targetProxy = 1FE8392E201957840016F642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FE83912201957840016F642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE83913201957840016F642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FE8391A201957840016F642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE8391B201957840016F642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FE83934201957840016F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FE83935201957840016F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FE83937201957850016F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yelpp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo.Yelpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FE83938201957850016F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yelpp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo.Yelpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FE8393A201957850016F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YelppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo.YelppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelpp.app/Yelpp";
+			};
+			name = Debug;
+		};
+		1FE8393B201957850016F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YelppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo.YelppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelpp.app/Yelpp";
+			};
+			name = Release;
+		};
+		1FE8393D201957850016F642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YelppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo.YelppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Yelpp;
+			};
+			name = Debug;
+		};
+		1FE8393E201957850016F642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YelppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo.YelppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Yelpp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FE83906201957840016F642 /* Build configuration list for PBXProject "Yelpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE83934201957840016F642 /* Debug */,
+				1FE83935201957840016F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE83936201957850016F642 /* Build configuration list for PBXNativeTarget "Yelpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE83937201957850016F642 /* Debug */,
+				1FE83938201957850016F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FE83939201957850016F642 /* Build configuration list for PBXNativeTarget "YelppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE8393A201957850016F642 /* Debug */,
+				1FE8393B201957850016F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FE8393C201957850016F642 /* Build configuration list for PBXNativeTarget "YelppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE8393D201957850016F642 /* Debug */,
+				1FE8393E201957850016F642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FE83915201957840016F642 /* Yelpp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FE83916201957840016F642 /* Yelpp.xcdatamodel */,
+			);
+			currentVersion = 1FE83916201957840016F642 /* Yelpp.xcdatamodel */;
+			path = Yelpp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FE83903201957840016F642 /* Project object */;
+}
