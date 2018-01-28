@@ -1,9 +1,9 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "900d878d46005cc026b4839122f9983c"
-build_time: [570481828, 305341000]
+build_time: [570482719, 326422000]
 inputs:
   "/Users/SiD/Desktop/CS 490/Yelpp/Yelp/BusinessCell.swift": [570481828, 0]
-  "/Users/SiD/Desktop/CS 490/Yelpp/Yelp/BusinessesViewController.swift": [570479996, 0]
+  "/Users/SiD/Desktop/CS 490/Yelpp/Yelp/BusinessesViewController.swift": [570482719, 0]
   "/Users/SiD/Desktop/CS 490/Yelpp/Yelp/Business.swift": [559405864, 0]
   "/Users/SiD/Desktop/CS 490/Yelpp/Yelp/YelpClient.swift": [559405864, 0]
   "/Users/SiD/Desktop/CS 490/Yelpp/Yelp/AppDelegate.swift": [559405864, 0]

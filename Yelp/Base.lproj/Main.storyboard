@@ -60,7 +60,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18 FDiivison sst, Mison bay" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9v-XT-WWk">
-                                                    <rect key="frame" x="139" y="69" width="164" height="16"/>
+                                                    <rect key="frame" x="139" y="69" width="228" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -85,6 +85,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="v9v-XT-WWk" secondAttribute="trailing" constant="8" id="0jH-UW-nPh"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="X0t-er-pUj" secondAttribute="trailing" constant="9" id="2Nu-Jk-Ep6"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="mNY-sZ-yDn" secondAttribute="trailing" constant="15" id="5SI-DB-8B9"/>
                                                 <constraint firstItem="Mx8-6x-xsm" firstAttribute="leading" secondItem="v9v-XT-WWk" secondAttribute="leading" id="5SI-id-KO8"/>
