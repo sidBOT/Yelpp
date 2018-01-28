@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/2xI-yr-O5N-view-XhR-oz-92f.nib</key>
 		<data>
-		aZxQKyHLrn4F5of3EdfMiVpWvtw=
+		AxO58HnzDqrZbzPh2RbECyvfPCc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-p5b-v5-7DM.nib</key>
 		<data>
-		tfU+gZsv/fonxy++Rjq0gfFOBsI=
+		FZ7jyqCD4TK4xhXloRkQitoaPOs=
 		</data>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
@@ -114,11 +114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aZxQKyHLrn4F5of3EdfMiVpWvtw=
+			AxO58HnzDqrZbzPh2RbECyvfPCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			g3tpPOFdf1nKdz6n6/oLI6ZzTJfzK8hLZLS2Xj3/unw=
+			KLG6EwqkoFmKmMCUEUQHGVMm/u7WRbO5XXyKRYZtDiI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -136,11 +136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tfU+gZsv/fonxy++Rjq0gfFOBsI=
+			FZ7jyqCD4TK4xhXloRkQitoaPOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			YfgbtoqwuHXhrTBpOgWvXbd+JYqLE7uDpyVFLvqeC9g=
+			hCWFq+D9sqSroqo6J79+8ebcf40xi5IwIh7wGvS4WPI=
 			</data>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>

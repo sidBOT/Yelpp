@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -40,56 +41,59 @@
                                                     </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S48-GP-wW2">
-                                                    <rect key="frame" x="139" y="44" width="83" height="15"/>
+                                                    <rect key="frame" x="139" y="45" width="83" height="15"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.Grand puBooo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsN-3a-Paf">
-                                                    <rect key="frame" x="139" y="8" width="130" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1.Grand puBooo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsN-3a-Paf">
+                                                    <rect key="frame" x="139" y="8" width="123" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.07mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0t-er-pUj">
-                                                    <rect key="frame" x="323" y="8" width="52" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <color key="textColor" red="0.38106757614213194" green="0.38106757614213194" blue="0.38106757614213194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="469 reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSF-00-rZ9">
-                                                    <rect key="frame" x="230" y="41" width="94" height="21"/>
+                                                    <rect key="frame" x="230" y="45" width="75" height="16"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.38106757614213194" green="0.38106757614213194" blue="0.38106757614213194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="18 FDiivison sst, Mison bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9v-XT-WWk">
-                                                    <rect key="frame" x="139" y="75" width="206" height="21"/>
+                                                    <rect key="frame" x="139" y="69" width="164" height="16"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thai, Seafood salad." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mx8-6x-xsm">
-                                                    <rect key="frame" x="139" y="104" width="155" height="21"/>
+                                                    <rect key="frame" x="139" y="94" width="123" height="16"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.38106757614213194" green="0.38106757614213194" blue="0.38106757614213194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNY-sZ-yDn">
-                                                    <rect key="frame" x="332" y="41" width="22" height="21"/>
+                                                    <rect key="frame" x="335" y="45" width="17" height="16"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.38106757614213194" green="0.38106757614213194" blue="0.38106757614213194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="0.07mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0t-er-pUj">
+                                                    <rect key="frame" x="317" y="9.5" width="41" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.38106757614213194" green="0.38106757614213194" blue="0.38106757614213194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="X0t-er-pUj" secondAttribute="trailing" constant="9" id="2Nu-Jk-Ep6"/>
                                                 <constraint firstItem="o0a-co-xkU" firstAttribute="leading" secondItem="PUQ-El-gbK" secondAttribute="leading" constant="8" id="FAX-wr-YDw"/>
+                                                <constraint firstItem="X0t-er-pUj" firstAttribute="baseline" secondItem="VsN-3a-Paf" secondAttribute="baseline" constant="-1" id="IT2-Ru-9eR"/>
+                                                <constraint firstItem="VsN-3a-Paf" firstAttribute="leading" secondItem="o0a-co-xkU" secondAttribute="trailing" constant="8" id="JV7-gy-HBz"/>
                                                 <constraint firstItem="o0a-co-xkU" firstAttribute="top" secondItem="PUQ-El-gbK" secondAttribute="top" constant="8" id="WbR-jn-iny"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="o0a-co-xkU" secondAttribute="bottom" constant="12" id="dnI-Cd-J5V"/>
+                                                <constraint firstItem="X0t-er-pUj" firstAttribute="leading" secondItem="VsN-3a-Paf" secondAttribute="trailing" constant="55" id="eHN-6r-Go7"/>
+                                                <constraint firstItem="VsN-3a-Paf" firstAttribute="top" secondItem="PUQ-El-gbK" secondAttribute="top" constant="8" id="gmX-2O-ZfC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
