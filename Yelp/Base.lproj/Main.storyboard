@@ -29,12 +29,15 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="172"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FoO-fB-5L6" id="PUQ-El-gbK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="171"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="171.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0a-co-xkU">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o0a-co-xkU">
                                                     <rect key="frame" x="8" y="8" width="123" height="115"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="115" id="05c-CQ-MmQ"/>
+                                                        <constraint firstAttribute="width" constant="123" id="wpm-rf-WU9"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S48-GP-wW2">
                                                     <rect key="frame" x="139" y="44" width="83" height="15"/>
@@ -83,6 +86,11 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="o0a-co-xkU" firstAttribute="leading" secondItem="PUQ-El-gbK" secondAttribute="leading" constant="8" id="FAX-wr-YDw"/>
+                                                <constraint firstItem="o0a-co-xkU" firstAttribute="top" secondItem="PUQ-El-gbK" secondAttribute="top" constant="8" id="WbR-jn-iny"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="o0a-co-xkU" secondAttribute="bottom" constant="12" id="dnI-Cd-J5V"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="addressLabel" destination="v9v-XT-WWk" id="5ZG-tt-kRe"/>
