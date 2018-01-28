@@ -171,6 +171,7 @@ SWIFT_CLASS("_TtC4Yelp12BusinessCell")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified thumbImageView;
 @property (nonatomic, strong) Business * _Null_unspecified business;
 - (void)awakeFromNib;
+- (void)layoutSubviews;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
