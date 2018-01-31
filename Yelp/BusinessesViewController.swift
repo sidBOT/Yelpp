@@ -11,11 +11,12 @@ import UIKit
 class BusinessesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var businesses: [Business]!
+    let searchBar
     
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let searchBar = UISearchBar()
+        searchBar = UISearchBar()
         searchBar.sizeToFit()
         
         navigationItem.titleView = searchBar
