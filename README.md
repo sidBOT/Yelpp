@@ -37,7 +37,7 @@ Business.searchWithTerm("Restaurants", sort: .distance, categories: ["asianfusio
 
 **Name of your app** is a Yelp search app using the [Yelp API](http://www.yelp.com/developers/documentation/v2/search_api).
 
-Time spent: **X** hours spent in total
+Time spent: *4** hours spent in total
 
 ## User Stories
 
@@ -77,7 +77,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Siddhant Patel]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
